@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "processLog": {
+      "home": {
+        "title": "Process Logs",
+        "createLabel": "Crear nuevo Process Log",
+        "createOrEditLabel": "Crear o editar Process Log",
+        "notFound": "Ningún Process Logs encontrado"
+      },
+      "created": "Un nuevo Process Log ha sido creado con el identificador {{ param }}",
+      "updated": "Un Process Log ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Process Log ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Process Log {{ id }}?"
+      },
+      "detail": {
+        "title": "Process Log"
+      },
+      "fileName": "File Name",
+      "fileValue": "File Value",
+      "processDate": "Process Date",
+      "fileDataContent": "File Data Content"
+    }
+  }
+}
