@@ -1,0 +1,23 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "fileContent": {
+      "home": {
+        "title": "File Contents",
+        "createLabel": "Crear nuevo File Content",
+        "createOrEditLabel": "Crear o editar File Content",
+        "notFound": "Ningún File Contents encontrado"
+      },
+      "created": "Un nuevo File Content ha sido creado con el identificador {{ param }}",
+      "updated": "Un File Content ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un File Content ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar File Content {{ id }}?"
+      },
+      "detail": {
+        "title": "File Content"
+      },
+      "fileDataContent": "File Data Content",
+      "processLog": "Process Log"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "FileContent",
+    "fields": [
+        {
+            "fieldName": "fileDataContent",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "processLog",
+            "otherEntityRelationshipName": "fileDataContent",
+            "relationshipValidateRules": "required",
+            "relationshipName": "processLog",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20200217180700",
+    "entityTableName": "file_content",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

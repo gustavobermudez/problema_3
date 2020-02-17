@@ -1,0 +1,41 @@
+{
+    "name": "ProcessLog",
+    "fields": [
+        {
+            "fieldName": "fileName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "fileValue",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "processDate",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "fileContent",
+            "otherEntityRelationshipName": "processLog",
+            "relationshipName": "fileDataContent",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20200217180600",
+    "javadoc": "Reward.",
+    "entityTableName": "process_log",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
