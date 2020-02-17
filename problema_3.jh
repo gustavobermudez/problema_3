@@ -1,0 +1,18 @@
+/**
+ * Reward.
+ */
+
+entity ProcessLog {
+    fileName String required,
+    fileValue Double,
+    processDate ZonedDateTime
+}
+
+
+entity FileContent {
+  fileDataContent Blob required
+}
+
+relationship OneToOne {
+  ProcessLog{fileDataContent} to FileContent{processLog(id) required}
+}
